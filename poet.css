@@ -18,12 +18,12 @@ body {
   bottom: 20px;
   left: 10px;
 }
-.cicek {
+.guslar {
   position: fixed;
   max-height: 400px;
   width: auto;
-  top: 0;
-  right: 80px;
+  top: 10px;
+  right: 30px;
 }
 ul {
   list-style-type: disc;

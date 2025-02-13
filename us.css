@@ -1,0 +1,47 @@
+.menu {
+  display: block;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: rgb(10, 87, 61);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(236, 211, 215);
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Resimleri sola ve sağa yasla */
+  align-items: center; /* Dikeyde ortala */
+  height: 100vh; /* Sayfanın tamamını kaplasın */
+  padding: 0 70px; /* Sol ve sağdan boşluk bırak */
+}
+
+.us1,
+.us2 {
+  max-width: 350px; /* Resimlerin genişliğini ayarla */
+  height: auto; /* Oranlarını koru */
+}
+
+.text {
+  color: rgb(110, 83, 48);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  background: rgb(236, 211, 215);
+  padding: 20px;
+  border-radius: 10px;
+}
+.loveu {
+  font-size: 40px;
+  text-decoration: underline overline solid;
+}

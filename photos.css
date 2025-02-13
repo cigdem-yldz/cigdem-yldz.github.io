@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(pano.png) no-repeat fixed center;
+}
+.menu {
+  display: block;
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  font-size: 30px;
+  color: rgb(10, 87, 61);
+}
+img {
+  background-color: rgb(247, 239, 240);
+  border: 1px solid rgb(247, 239, 240);
+  border-radius: 5px;
+  padding: 4px;
+}
+.dikey {
+  max-width: 250px;
+  height: auto;
+  margin: 30px 100px 20px;
+}
+.yatay {
+  max-height: 250px;
+  width: auto;
+  margin: 50px 70px 70px;
+}

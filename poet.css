@@ -1,0 +1,76 @@
+.menu {
+  display: block;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: rgb(10, 87, 61);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(poet.jpg) fixed;
+}
+.seyka {
+  position: fixed;
+  max-height: 600px;
+  width: auto;
+  bottom: 20px;
+  left: 10px;
+}
+.cicek {
+  position: fixed;
+  max-height: 400px;
+  width: auto;
+  top: 0;
+  right: 80px;
+}
+ul {
+  list-style-type: disc;
+}
+p {
+  font-size: 20px;
+}
+li {
+  font-size: 20px;
+}
+.p_one {
+  position: absolute;
+  top: 60px;
+  left: 180px;
+}
+.p_two {
+  position: absolute;
+  top: 140px;
+  left: 230px;
+}
+.p_three {
+  position: absolute;
+  top: 200px;
+  left: 280px;
+}
+.p_four {
+  position: absolute;
+  top: 220px;
+  left: 280px;
+}
+.p_five {
+  position: absolute;
+  top: 430px;
+  left: 420px;
+}
+.p_six {
+  position: absolute;
+  top: 510px;
+  left: 490px;
+}
+.p_seven {
+  position: absolute;
+  top: 560px;
+  left: 550px;
+}
+.p_eight {
+  position: absolute;
+  top: 680px;
+  left: 620px;
+}

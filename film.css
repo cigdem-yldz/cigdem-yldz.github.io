@@ -1,0 +1,38 @@
+.menu {
+  display: block;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: rgb(10, 87, 61);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(perde.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+img {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: auto;
+  border-top: rgb(145, 95, 31) solid 4px;
+  border-left: rgb(145, 95, 31) solid 4px;
+  border-right: rgb(145, 95, 31) solid 4px;
+  border-radius: 8px;
+}
+.play {
+  position: fixed;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
+  font-size: 70px;
+  color: red;
+}
+.play:hover {
+  top: 64%;
+  font-size: 90px;
+}
